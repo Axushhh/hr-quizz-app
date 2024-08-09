@@ -1,0 +1,13 @@
+<form [formGroup]="uploadForm" (ngSubmit)="onSubmit()">
+    <label for="name">Name:</label>
+    <input id="name" formControlName="name" type="text" required>
+    
+    <label for="email">Email:</label>
+    <input id="email" formControlName="email" type="email" required>
+    
+    <label for="resume">Upload Resume:</label>
+    <input id="resume" type="file" (change)="onFileChange($event)" required>
+    
+    <button type="submit">Submit</button>
+  </form>
+  
