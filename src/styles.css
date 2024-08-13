@@ -12,7 +12,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('assets/images/cloud.jpg');
+    background-image: url('assets/images/mountain.jpg');
     background-size: cover; /* Cover the whole viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent image repetition */
